@@ -1,6 +1,5 @@
 set -e
 if [ ! -f ../bin/go ]; then
-	echo 'run.bash must be run from $GOROOT/src after installing cmd/go' 1>&2
 	exit 1
 fi
 eval $(../bin/go env)
